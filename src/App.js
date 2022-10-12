@@ -36,6 +36,7 @@ function App() {
 					<Route path="/contact/:landlordId" element={<Contact />} />
 					<Route path="/edit-listing/:listingId" element={<EditListing />} />
 				</Routes>
+				<div className="mb"></div>
 				<Navbar />
 			</Router>
 

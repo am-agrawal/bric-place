@@ -95,7 +95,6 @@ function SignIn() {
 				<Link to="/sign-up" className="registerLink">
 					Sign Up Instead
 				</Link>
-				<div className="mb"></div>
 			</div>
 		</>
 	)

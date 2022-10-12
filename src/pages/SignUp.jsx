@@ -118,7 +118,6 @@ function SignUp() {
 					Sign In Instead
 				</Link>
 
-				<div className="mb"></div>
 			</div>
 		</>
 	)

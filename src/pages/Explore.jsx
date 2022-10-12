@@ -34,7 +34,6 @@ function Explore() {
 					</Link>
 				</div>
 			</main>
-			<div className="mb"></div>
 		</div>
 	)
 }

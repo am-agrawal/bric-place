@@ -129,7 +129,6 @@ function Category() {
 			) : (
 				<p>No listings for {params.categoryName}</p>
 			)}
-			<div className="mb"></div>
 		</div>
 	)
 }

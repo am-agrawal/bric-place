@@ -162,7 +162,6 @@ function Listing() {
 					</Link>
 				)}
 			</div>
-			<div className="mb"></div>
 		</main>
 	)
 }
