@@ -52,6 +52,7 @@ function ForgotPassword() {
 					</div>
 				</form>
 			</main>
+			<div className="mb"></div>
 		</div>
 	)
 }

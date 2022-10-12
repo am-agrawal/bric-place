@@ -124,6 +124,7 @@ function Offers() {
 			) : (
 				<p>There are no current offers</p>
 			)}
+			<div className="mb"></div>
 		</div>
 	)
 }

@@ -68,7 +68,12 @@ function Listing() {
 							key={index}
 							src={url}
 							alt="house"
-							style={{ backgroundSize: "cover", width: '100%', height: '25rem', objectFit: 'cover' }}
+							style={{
+								backgroundSize: "cover",
+								width: "100%",
+								height: "25rem",
+								objectFit: "cover",
+							}}
 						/>
 					</SwiperSlide>
 				))}
@@ -157,6 +162,7 @@ function Listing() {
 					</Link>
 				)}
 			</div>
+			<div className="mb"></div>
 		</main>
 	)
 }

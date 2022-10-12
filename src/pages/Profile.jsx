@@ -177,6 +177,7 @@ function Profile() {
 					</>
 				)}
 			</main>
+			<div className="mb"></div>
 		</div>
 	)
 }

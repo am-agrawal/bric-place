@@ -67,6 +67,7 @@ function Contact() {
 					</form>
 				</main>
 			)}
+			<div className="mb"></div>
 		</div>
 	)
 }
