@@ -59,7 +59,7 @@ function SignUp() {
 		<>
 			<div className="pageContainer">
 				<header>
-					<p className="pageHeader">Welcome Back!</p>
+					<p className="pageHeader">Welcome to Bricplace</p>
 				</header>
 
 				<form onSubmit={onSubmit}>
