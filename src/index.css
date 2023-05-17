@@ -72,18 +72,18 @@ button {
   justify-content: center;
 }
 
-.removeIcon {
+.removeIcon, .editIcon {
   cursor: pointer;
   position: absolute;
-  top: -3%;
-  right: -2%;
+  top: 10px;
+}
+
+.removeIcon {
+  right: 10px;
 }
 
 .editIcon {
-  cursor: pointer;
-  position: absolute;
-  top: -3.4%;
-  right: 20px;
+  right: 50px;
 }
 
 .pageContainer,
@@ -410,9 +410,15 @@ button {
   margin-bottom: 1rem;
   position: relative;
   padding: 1rem;
-  background-color: #dedede;
+  background-color: #e9e9e9;
   border-radius: 1rem;
   max-width: 40rem;
+  transition: ease-in-out 200ms;
+}
+.categoryListing:hover {
+  transform: translateY(-5px);
+  transition: ease-in-out 200ms;
+  box-shadow: rgba(0, 0, 0, 0.327) 0px 7px 29px 0px;
 }
 
 .categoryListingLink {

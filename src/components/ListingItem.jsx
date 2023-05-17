@@ -24,11 +24,9 @@ function ListingItem({ listing, id, onEdit, onDelete }) {
             {"₹ "}
             {listing.offer
               ? listing.discountedPrice
-                  .toString()
-                  .replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+                  .toLocaleString('en-IN')
               : listing.regularPrice
-                  .toString()
-                  .replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+                  .toLocaleString('en-IN')}
             {listing.type === "rent" && " / Month"}
           </p>
           <div className="categoryListingInfoDiv">
